@@ -4,7 +4,7 @@ function Cards({ loc, currency, setCurrency, amount, setAmount, object, isReadOn
     return (
         <>
             <link href="/src/styles.css" rel="stylesheet"></link>
-            <div className='bg-white opacity-70 text-gray-800 flex-col rounded-md p-5 border-lg shadow-md'>
+            <div className='bg-white opacity-85 text-gray-800 flex-col rounded-md p-5 border-lg shadow-md'>
                 <div className='text-black text-2xl'>{loc}: {currency}</div>
                 <select
                     onChange={(e) => { setCurrency(e.target.value) }}>

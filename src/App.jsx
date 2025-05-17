@@ -32,7 +32,7 @@ function App() {
       style={{backgroundImage: `url(${image})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'}}>
-        <div className='rounded-lg shadow-xl/40 p-10 bg-[rgba(rgba(17, 21, 37, 100)]'>
+        <div className='rounded-lg shadow-xl/40 p-10 bg-[rgba(17, 21, 37, 1)]'>
           <p className='text-3xl text-white text-bold text-center my-8'>Currency Convertor</p>
           <div className='flex justify-center items-center gap-5'>
             <Cards
